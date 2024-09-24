@@ -104,7 +104,6 @@ if (empty($error_message) && isset($_POST['submit-button'])) {
 
     editUser($user);
 
-    // 確認ページにリダイレクト
     header('Location: ./my-page.php');
     exit();
 } else {
