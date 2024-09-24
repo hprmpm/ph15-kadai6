@@ -100,7 +100,7 @@ if (empty($error_message) && isset($_POST['submit-button'])) {
     <div class="form-container">
         <h1 class="formTitle">会員情報 入力</h1>
         <h3>以下の項目をご入力ください。<br>ログインの際にはメールアドレスとパスワードが必要となりますので、お手元に控えをご用意ください。<br>
-        <small class="red">※入力した情報は一度登録されますと、変更ができません</small><br>
+        <small class="red">※お名前、メール、性別は一度登録されますと、変更ができません</small><br>
         <small><a href="./login.php">すでに登録済みの方はこちら</a></small></h3>
 
         <?php if (!empty($error_message['result'])): ?>
