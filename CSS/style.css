@@ -1,0 +1,207 @@
+:root {
+    --head-font-family: "Hiragino Mincho ProN", sans-serif;
+    --body-font-family: "Hina Mincho", serif;
+}
+
+body {
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HGS明朝E", "メイリオ", 'Noto Serif JP', Meiryo, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.formTitle {
+    border-left: 5px solid #ff9e3c;
+    padding-left: 10px;
+}
+
+.tableTitle {
+    border-left: 5px solid #ff9e3c;
+    font-family: 'Noto Serif JP', serif;
+    padding-left: 10px;
+}
+
+.form-container {
+    width: 50%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container2 {
+    width: 50%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 50%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: 'Noto Serif JP', serif;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.error {
+    color: red;
+}
+
+h1 {
+    color: #333;
+}
+
+h3 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px;
+}
+
+small {
+    font-size: 14px;
+}
+
+.item {
+    font-size: 12px;
+}
+
+.selectedItem {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-family: 'Noto Serif JP', serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: auto;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.required {
+    background-color: #ff9e3c;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    font-size: 8px;
+    height: auto;
+}
+
+.read {
+    background-color: #161616;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    font-size: 8px;
+    height: auto;
+}
+
+.button-style {
+    border: 1px solid #ff9e3c;
+    background-color: #ffffff;
+    color: rgb(255, 170, 66);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-style:hover {
+    background-color: #ff9e3c;
+    color: #ffffff;
+}
+
+.button-style2 {
+    border: 1px solid #ff9e3c;
+    background-color: #ffffff;
+    color: rgb(255, 170, 66);
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-style2:hover {
+    background-color: #ff9e3c;
+    color: #ffffff;
+}
+
+.confirm {
+    border: 1px solid #ff9e3c;
+    background-color: #ffffff;
+    color: rgb(255, 170, 66);
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 50px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.confirm:hover {
+    background-color: #ff9e3c;
+    color: #ffffff;
+}
+
+.back {
+    border: 1px solid #828282;
+    background-color: #ffffff;
+    color: #828282;
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back:hover {
+    background-color: #828282;
+    color: #ffffff;
+}
+
+
